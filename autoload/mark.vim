@@ -433,6 +433,7 @@ function! s:SetPattern( index, pattern )
 	endif
 endfunction
 function! mark#ClearAll()
+	let @/ = ''	
 	let i = 0
 	let indices = []
 	while i < s:markNum
