@@ -206,7 +206,7 @@ set cpo&vim
 "- configuration --------------------------------------------------------------
 
 if ! exists('g:mwHistAdd')
-	let g:mwHistAdd = '/@'
+	let g:mwHistAdd = ''
 endif
 
 if ! exists('g:mwAutoLoadMarks')
