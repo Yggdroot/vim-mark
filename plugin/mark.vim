@@ -265,7 +265,7 @@ if ! exists('g:mwDefaultHighlightingNum')
 	let g:mwDefaultHighlightingNum = -1
 endif
 if ! exists('g:mwDefaultHighlightingPalette')
-	let g:mwDefaultHighlightingPalette = 'original'
+	let g:mwDefaultHighlightingPalette = 'extended'
 endif
 if ! exists('g:mwPalettes')
 	let g:mwPalettes = {
